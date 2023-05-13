@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header .navbar {
+  background-color: #fffdee !important;
+}
+header .navbar .navCon .navbar-brand img {
+  width: 4rem;
+}
+header .navbar .navCon .collapse .navbar-nav .btn-danger {
+  background-color: #d36420 !important;
+}
+header .navbar .navCon .collapse .navbar-nav .dropCar {
+  position: relative;
+}
+header .navbar .navCon .collapse .navbar-nav .dropCar .dropHover {
+  position: absolute;
+  display: none;
+}
+header .navbar .navCon .collapse .navbar-nav .dropCar:hover .dropHover {
+  display: block;
+}
+header .navbar .secondNav .secondnavWrapper .btn-group {
+  position: relative;
+}
+header .navbar .secondNav .secondnavWrapper .jewel {
+  color: #d36420 !important;
+  text-decoration: none;
+  transition: 1s ease;
+}
+header .navbar .secondNav .secondnavWrapper:hover .jewel {
+  color: black !important;
+}
+header .navbar .secondNav .secondnavWrapper .dropDown {
+  width: 25rem;
+  display: none;
+  position: absolute;
+}
+header .navbar .secondNav .secondnavWrapper .dropDown #listing {
+  text-decoration: none;
+  margin-left: 1rem;
+  line-height: 2rem;
+  color: black;
+}
+
+.heroSection {
+  line-height: 3rem;
+  height: 75vh;
+  margin-top: 5.5rem;
+}
+.heroSection .row .textSection h6 {
+  font-size: 1rem;
+}
+.heroSection .row .textSection h3 {
+  font-size: 5rem;
+  line-height: 4rem;
+  color: #d36420;
+}
+.heroSection .row .textSection .btn {
+  background-color: white;
+  border: 0;
+  color: #d36420;
+  padding: 14px 80px 14px 65px;
+}
+.heroSection .row .textSection .btn a {
+  text-decoration: none;
+  color: #d36420;
+}

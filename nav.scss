@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  width: 100%;
+}
+
+// nav
+header{
+    .navbar{
+    background-color: #fffdee !important;
+
+        .navCon{
+            .navbar-brand{
+                img{
+                    width: 4rem;
+                }
+            }
+            .collapse{
+                .navbar-nav{
+                  .btn-danger{
+                    background-color: #d36420 !important;
+                  }
+                    .dropCar {
+                        position: relative;
+                        .dropHover {
+                            position: absolute;
+                          display: none;
+                        }
+                        
+                        &:hover {
+                          .dropHover {
+                            display: block;
+                          }
+                        }
+                      }
+                      
+                }
+            }
+        }
+
+        .secondNav{
+          .secondnavWrapper{
+            .btn-group{
+              position: relative;
+              }
+              .jewel{
+                color: #d36420 !important;
+                text-decoration: none;
+                transition: 1s ease;
+              }
+              &:hover{
+                .jewel{
+                  color: black!important;
+                }
+                // .jewel::after{
+                //   content: "";
+                //   width: 30%;
+                //   height: 2px;
+                //   background-color: black;
+                //   position: absolute; 
+                //   top: 2rem;
+                //   left: 20px;
+                // }
+              }
+              .dropDown{
+                  width: 25rem;
+                  display: none;
+                  position: absolute;
+                  
+                  #listing{
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    line-height: 2rem;
+                    color: black;
+                  }
+            }
+            // &:hover {
+            //   .dropDown {
+            //     display: block;
+            //   }
+            // }
+      }
+  }
+          }
+}
+
+
+  // .heroSection
+
+.heroSection{
+  line-height: 3rem;
+  height: 75vh;
+  margin-top: 5.5rem;
+    .row{
+        .textSection{
+          h6{
+            font-size: 1rem;
+          }
+          h3{
+            font-size: 5rem;
+            line-height: 4rem;
+            color: #d36420;
+            // padding: 0px 1rem 0px 10rem;
+          }
+         .btn{
+            background-color: white;
+            border: 0;
+            color: #d36420;
+            padding: 14px 80px 14px 65px;
+
+            a{
+              text-decoration: none;
+                color: #d36420;
+            }          
+         }
+        }
+    }
+}
