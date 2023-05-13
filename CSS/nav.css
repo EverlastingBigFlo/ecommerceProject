@@ -56,21 +56,21 @@ header .navbar .secondNav .secondnavWrapper .dropDown #listing {
   height: 75vh;
   margin-top: 5.5rem;
 }
-.heroSection .row .textSection h6 {
+.heroSection .container .textSection h6 {
   font-size: 1rem;
 }
-.heroSection .row .textSection h3 {
+.heroSection .container .textSection h3 {
   font-size: 5rem;
   line-height: 4rem;
   color: #d36420;
 }
-.heroSection .row .textSection .btn {
+.heroSection .container .textSection .btn {
   background-color: white;
   border: 0;
   color: #d36420;
   padding: 14px 80px 14px 65px;
 }
-.heroSection .row .textSection .btn a {
+.heroSection .container .textSection .btn a {
   text-decoration: none;
   color: #d36420;
 }
