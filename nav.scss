@@ -20,6 +20,18 @@ header{
                 }
             }
             .collapse{
+              form{
+                .form-control{
+                  // &::placeholder{
+                  //   // color: #fffdee;
+                    
+                  // }
+                  &:focus::placeholder{
+                    transform: translateY(-1.1rem);
+                    transition: 2s ease-in-out;
+                  }
+                }
+              }
                 .navbar-nav{
                   .btn-danger{
                     background-color: #d36420 !important;
@@ -42,18 +54,15 @@ header{
             }
         }
 
-
-        
-
         .secondNav{
           .secondnavWrapper{
-            .btn-group{
+            .dropHeader{
               position: relative;
               }
               .jewel{
                 color: #d36420 !important;
                 text-decoration: none;
-                transition: 1s ease;
+                // transition: 5s ease; 
               }
               &:hover{
                 .jewel{
@@ -86,26 +95,12 @@ header{
                   display: block;
                 }
               }
-              .dropDown2{
-                  width: 25rem;
-                  display: none;
-                  position: absolute;
-                  
-                  #listing{
-                    text-decoration: none;
-                    margin-left: 1rem;
-                    line-height: 2rem;
-                    color: black;
-                  }
-            }
-              &:hover {
-                .dropDown2 {
-                  display: block;
-                }
-              }
       }
   }
           }
 }
+
+
+
 
 

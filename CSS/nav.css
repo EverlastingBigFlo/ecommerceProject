@@ -15,6 +15,15 @@ header .navbar {
 header .navbar .navCon .navbar-brand img {
   width: 4rem;
 }
+header .navbar .navCon .collapse form .form-control:focus::-moz-placeholder {
+  transform: translateY(-1.1rem);
+  -moz-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+header .navbar .navCon .collapse form .form-control:focus::placeholder {
+  transform: translateY(-1.1rem);
+  transition: 2s ease-in-out;
+}
 header .navbar .navCon .collapse .navbar-nav .btn-danger {
   background-color: #d36420 !important;
 }
@@ -28,13 +37,12 @@ header .navbar .navCon .collapse .navbar-nav .dropCar .dropHover {
 header .navbar .navCon .collapse .navbar-nav .dropCar:hover .dropHover {
   display: block;
 }
-header .navbar .secondNav .secondnavWrapper .btn-group {
+header .navbar .secondNav .secondnavWrapper .dropHeader {
   position: relative;
 }
 header .navbar .secondNav .secondnavWrapper .jewel {
   color: #d36420 !important;
   text-decoration: none;
-  transition: 1s ease;
 }
 header .navbar .secondNav .secondnavWrapper:hover .jewel {
   color: black !important;
@@ -60,19 +68,5 @@ header .navbar .secondNav .secondnavWrapper .dropDown #listing {
   color: black;
 }
 header .navbar .secondNav .secondnavWrapper:hover .dropDown {
-  display: block;
-}
-header .navbar .secondNav .secondnavWrapper .dropDown2 {
-  width: 25rem;
-  display: none;
-  position: absolute;
-}
-header .navbar .secondNav .secondnavWrapper .dropDown2 #listing {
-  text-decoration: none;
-  margin-left: 1rem;
-  line-height: 2rem;
-  color: black;
-}
-header .navbar .secondNav .secondnavWrapper:hover .dropDown2 {
   display: block;
 }
