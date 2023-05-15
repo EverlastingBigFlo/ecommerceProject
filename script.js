@@ -7,7 +7,7 @@ let sectionNew=document.getElementById('display');
 let arrsentence=0;
 let arrWords=0;
 
-
+// function to start autotype
 function autotype() {
     letterword=sentence[arrsentence][arrWords]
     sectionNew.innerHTML+= letterword  
@@ -24,6 +24,7 @@ function autotype() {
 }
 autotype() 
     
+// after typing it and you want it to clear
   function clear() {
     if (sectionNew.innerHTML=='') {
         if (sentence[arrsentence+1]) {
