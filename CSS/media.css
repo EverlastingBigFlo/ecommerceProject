@@ -1,0 +1,17 @@
+@media (max-width: 579px) {
+  .heroSection .textSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroSection .textSection h2 {
+    font-size: 1.5rem !important;
+  }
+  .heroSection .textSection h3 {
+    font-size: 3rem !important;
+    width: 9rem;
+  }
+  .heroSection .textSection #display {
+    font-size: 1rem !important;
+  }
+}

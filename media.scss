@@ -1,0 +1,24 @@
+
+
+
+
+// heroSection text
+@media (max-width:579px) {
+    .heroSection{
+        .textSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+            font-size: 1.5rem !important ;
+            }
+            h3{
+                font-size: 3rem !important;
+                width: 9rem;
+            }
+            #display{
+                font-size: 1rem !important;
+            }
+        }
+    }
+}
