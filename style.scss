@@ -1,9 +1,14 @@
+  
+  
+  
   // .heroSection
 
   .heroSection{
     line-height: 3rem;
-    height: 75vh;
-    margin-top: 5.5rem;
+    height: 100%;
+    width: 100% !important;
+    padding: 9rem 0 9rem 0 !important;
+    // margin-top: 3rem;
       .container{
           .textSection{
             h6{
@@ -13,7 +18,6 @@
               font-size: 5rem;
               line-height: 4rem;
               color: #d36420;
-              // padding: 0px 1rem 0px 10rem;
             }
            .btn{
               background-color: white;

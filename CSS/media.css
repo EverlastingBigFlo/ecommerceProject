@@ -1,3 +1,38 @@
+@media (max-width: 855px) {
+  section .secondNav .dropHeader .jewel {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .heroSection .textSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroSection .textSection h2 {
+    font-size: 1.5rem !important;
+  }
+  .heroSection .textSection h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem !important;
+    width: 50rem;
+  }
+  .heroSection .textSection #display {
+    font-size: 1rem !important;
+  }
+}
+@media (max-width: 800px) {
+  .heroSection {
+    width: 20%;
+  }
+  .heroSection .textSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media (max-width: 579px) {
   .heroSection .textSection {
     display: flex;

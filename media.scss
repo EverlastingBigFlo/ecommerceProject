@@ -1,8 +1,52 @@
-
+// nav section area
+@media (max-width : 855px){
+    section{
+        .secondNav{
+            .dropHeader{
+                .jewel{
+                    font-size: .9rem !important;
+                }
+            }
+        }
+    }
+}
 
 
 
 // heroSection text
+@media (max-width:992px) {
+    .heroSection{
+        .textSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+            font-size: 1.5rem !important ;
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 4.5rem !important;
+                width: 50rem;
+            }
+            #display{
+                font-size: 1rem !important;
+            }
+        }
+    }
+}
+@media (max-width:800px) {
+    .heroSection{
+        width: 20%;
+        .textSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
 @media (max-width:579px) {
     .heroSection{
         .textSection{
