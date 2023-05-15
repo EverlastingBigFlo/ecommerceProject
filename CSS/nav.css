@@ -53,12 +53,26 @@ header .navbar .secondNav .secondnavWrapper .dropDown {
   display: none;
   position: absolute;
 }
-header .navbar .secondNav .secondnavWrapper .dropDown .listing {
+header .navbar .secondNav .secondnavWrapper .dropDown #listing {
   text-decoration: none;
   margin-left: 1rem;
   line-height: 2rem;
   color: black;
 }
 header .navbar .secondNav .secondnavWrapper:hover .dropDown {
+  display: block;
+}
+header .navbar .secondNav .secondnavWrapper .dropDown2 {
+  width: 25rem;
+  display: none;
+  position: absolute;
+}
+header .navbar .secondNav .secondnavWrapper .dropDown2 #listing {
+  text-decoration: none;
+  margin-left: 1rem;
+  line-height: 2rem;
+  color: black;
+}
+header .navbar .secondNav .secondnavWrapper:hover .dropDown2 {
   display: block;
 }

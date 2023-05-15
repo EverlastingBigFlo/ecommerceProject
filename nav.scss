@@ -42,6 +42,9 @@ header{
             }
         }
 
+
+        
+
         .secondNav{
           .secondnavWrapper{
             .btn-group{
@@ -71,18 +74,35 @@ header{
                   display: none;
                   position: absolute;
                   
-                  .listing{
+                  #listing{
                     text-decoration: none;
                     margin-left: 1rem;
                     line-height: 2rem;
                     color: black;
                   }
             }
-            &:hover {
-              .dropDown {
-                display: block;
+              &:hover {
+                .dropDown {
+                  display: block;
+                }
               }
+              .dropDown2{
+                  width: 25rem;
+                  display: none;
+                  position: absolute;
+                  
+                  #listing{
+                    text-decoration: none;
+                    margin-left: 1rem;
+                    line-height: 2rem;
+                    color: black;
+                  }
             }
+              &:hover {
+                .dropDown2 {
+                  display: block;
+                }
+              }
       }
   }
           }
