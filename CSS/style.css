@@ -53,3 +53,6 @@
   background-color: #fffdee;
   height: 100%;
 }
+.aboutSection .aboutHeader h6 a {
+  font-size: 0.9rem !important;
+}
