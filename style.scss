@@ -7,14 +7,23 @@
   
   // carousel section
     .carouselWrapper{
-      margin-top: 5.5rem !important;
+      margin-top: 9rem !important;
       // width: 50%;
       height: 50% !important;
       #carouselExampleAutoplaying{
         .carousel-inner{
           .carousel-item{
             img{
+              // position: relative;
+              // z-index: 0;
               height: 30rem !important;
+            }
+            .position-absolute{
+              margin-left: 55rem !important;
+            }
+            .interoi{
+              position: absolute;
+              margin-left: 63rem !important;
             }
           }
         }

@@ -6,11 +6,18 @@
 }
 
 .carouselWrapper {
-  margin-top: 5.5rem !important;
+  margin-top: 9rem !important;
   height: 50% !important;
 }
 .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item img {
   height: 30rem !important;
+}
+.carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+  margin-left: 55rem !important;
+}
+.carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+  position: absolute;
+  margin-left: 63rem !important;
 }
 
 .heroSection {
