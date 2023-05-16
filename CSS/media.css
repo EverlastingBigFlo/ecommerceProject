@@ -50,3 +50,84 @@
     font-size: 1rem !important;
   }
 }
+@media (max-width: 1117px) {
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+    margin-left: 45rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+    position: absolute;
+    margin-left: 53rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+    position: absolute;
+    margin-left: 48rem !important;
+  }
+}
+@media (max-width: 1017px) {
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+    margin-left: 37rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+    position: absolute;
+    margin-left: 45rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+    position: absolute;
+    margin-left: 40rem !important;
+  }
+}
+@media (max-width: 990px) {
+  .carouselWrapper {
+    margin-top: 8rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+    margin-left: 37rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+    position: absolute;
+    margin-left: 45rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+    position: absolute;
+    margin-left: 40rem !important;
+  }
+}
+@media (max-width: 910px) {
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+    margin-left: 37rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+    position: absolute;
+    margin-left: 45rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+    position: absolute;
+    margin-left: 40rem !important;
+  }
+}
+@media (max-width: 893px) {
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+    margin-left: 37rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+    position: absolute;
+    margin-left: 40rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+    position: absolute;
+    margin-left: 40rem !important;
+  }
+}
+@media (max-width: 806px) {
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
+    margin-left: 37rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
+    position: absolute;
+    margin-left: 35rem !important;
+  }
+  .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+    position: absolute;
+    margin-left: 40rem !important;
+  }
+}

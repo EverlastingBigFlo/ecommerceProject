@@ -66,3 +66,139 @@
         }
     }
 }
+
+
+// carousel section media
+@media (max-width : 1117px) {
+    .carouselWrapper{
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 45rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 53rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 48rem !important;
+              }
+            }
+          }
+        }
+      }
+}
+
+@media (max-width : 1017px) {
+    .carouselWrapper{
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 37rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 45rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 40rem !important;
+              }
+            }
+          }
+        }
+      }
+}
+
+@media (max-width : 990px) {
+    .carouselWrapper{
+      margin-top: 8rem !important;
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 37rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 45rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 40rem !important;
+              }
+            }
+          }
+        }
+      }
+}
+
+
+@media (max-width : 910px) {
+    .carouselWrapper{
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 37rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 45rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 40rem !important;
+              }
+            }
+          }
+        }
+      }
+}
+
+@media (max-width : 893px) {
+    .carouselWrapper{
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 37rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 40rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 40rem !important;
+              }
+            }
+          }
+        }
+      }
+}
+
+@media (max-width : 806px) {
+    .carouselWrapper{
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 37rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 35rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 40rem !important;
+              }
+            }
+          }
+        }
+      }
+}
