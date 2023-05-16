@@ -13,11 +13,15 @@
   height: 30rem !important;
 }
 .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .position-absolute {
-  margin-left: 55rem !important;
+  margin-left: 54rem !important;
 }
 .carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .interoi {
   position: absolute;
   margin-left: 63rem !important;
+}
+.carouselWrapper #carouselExampleAutoplaying .carousel-inner .carousel-item .Toys {
+  position: absolute;
+  margin-left: 58rem !important;
 }
 
 .heroSection {
