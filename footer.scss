@@ -1,5 +1,12 @@
 .footerSection{
     background-color: #7388b6;
     height: 100%;
-    
+    .footerWrapper{
+        .footer{
+            .contCar{
+                line-height: 3rem;
+                font-size: .9rem !important;
+            }
+        }
+    }
 }

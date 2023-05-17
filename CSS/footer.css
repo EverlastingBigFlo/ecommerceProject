@@ -2,3 +2,7 @@
   background-color: #7388b6;
   height: 100%;
 }
+.footerSection .footerWrapper .footer .contCar {
+  line-height: 3rem;
+  font-size: 0.9rem !important;
+}
