@@ -52,6 +52,9 @@ autotype()
   
 //   autotyping end
 
+// when clicked page should jump to about me
+
+
 
 // to make the page scroll up on click
 
@@ -68,3 +71,5 @@ window.addEventListener('scroll', ()=>{
         scroll(0,0)
     });
 });
+
+

@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-#jumpTop {
+.scroll {
   position: fixed;
   z-index: 10;
   right: 0;
@@ -17,7 +17,7 @@
   cursor: pointer;
   color: #d36420;
 }
-#jumpTop .top {
+.scroll .top {
   font-size: 0.7rem !important;
 }
 
