@@ -5,6 +5,19 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+#JumpTop {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  animation: scrollupAnimation infinite 1s;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+#JumpTop .top {
+  font-size: 0.7rem !important;
+}
+
 .carouselWrapper {
   margin-top: 9rem !important;
   height: 50% !important;
@@ -60,4 +73,13 @@
 }
 .aboutSection .aboutHeader h6 a {
   font-size: 0.9rem !important;
+}
+
+@keyframes scrollupAnimation {
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
 }

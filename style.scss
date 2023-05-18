@@ -4,7 +4,20 @@
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-  
+  // about section
+  #JumpTop{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    animation: scrollupAnimation infinite 1s;
+    // border: 3px solid black;
+    padding: .2rem .5rem;
+    cursor: pointer;
+    .top{
+      font-size: .7rem !important;
+    }
+  }
   // carousel section
     .carouselWrapper{
       margin-top: 9rem !important;
@@ -82,4 +95,14 @@
           }
         }
       }
+}
+
+
+@keyframes scrollupAnimation {
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
 }
