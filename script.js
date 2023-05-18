@@ -53,3 +53,18 @@ autotype()
 //   autotyping end
 
 
+// to make the page scroll up on click
+
+window.addEventListener('scroll', ()=>{
+    let top = document.getElementById('jumpTop')
+    const pageScroll = window.pageYOffset
+    if (pageScroll > 500) {
+        top.style.display = 'block'
+    }else{
+        top.style.display = 'none'
+    }
+
+    top.addEventListener('click', ()=>{
+        scroll(0,0)
+    });
+});

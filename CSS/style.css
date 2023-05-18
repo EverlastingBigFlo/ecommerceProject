@@ -3,18 +3,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
-#JumpTop {
+#jumpTop {
   position: fixed;
   z-index: 10;
   right: 0;
   bottom: 0;
   animation: scrollupAnimation infinite 1s;
+  display: none;
   padding: 0.2rem 0.5rem;
   cursor: pointer;
+  color: #d36420;
 }
-#JumpTop .top {
+#jumpTop .top {
   font-size: 0.7rem !important;
 }
 
