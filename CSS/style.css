@@ -38,10 +38,15 @@
   line-height: 4rem;
   color: #d36420;
 }
+.heroSection .container .textSection #display {
+  margin-top: 12rem;
+  position: absolute;
+}
 .heroSection .container .textSection .btn {
   background-color: white;
   border: 0;
   color: #d36420;
+  margin-top: 4rem;
   padding: 14px 80px 14px 65px;
 }
 .heroSection .container .textSection .btn a {

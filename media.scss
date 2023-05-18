@@ -33,7 +33,12 @@
                 width: 50rem;
             }
             #display{
-                font-size: 1rem !important;
+              margin-top: 7rem !important;
+              position: absolute;
+            }
+            .btn{
+              margin-top: 4rem !important;
+
             }
         }
     }
@@ -64,6 +69,31 @@
             }
             #display{
                 font-size: 1rem !important;
+            }
+        }
+    }
+}
+
+@media (max-width:562px) {
+    .heroSection{
+        .textSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+            font-size: 1.5rem !important ;
+            }
+            h3{
+                font-size: 3rem !important;
+                width: 9rem;
+            }
+            #display{
+              margin-top: 19rem !important;
+              position: absolute;
+            }
+            .btn{
+              margin-top: 4rem !important;
+
             }
         }
     }

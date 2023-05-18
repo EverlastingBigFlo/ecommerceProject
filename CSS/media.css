@@ -20,7 +20,11 @@
     width: 50rem;
   }
   .heroSection .textSection #display {
-    font-size: 1rem !important;
+    margin-top: 7rem !important;
+    position: absolute;
+  }
+  .heroSection .textSection .btn {
+    margin-top: 4rem !important;
   }
 }
 @media (max-width: 800px) {
@@ -48,6 +52,27 @@
   }
   .heroSection .textSection #display {
     font-size: 1rem !important;
+  }
+}
+@media (max-width: 562px) {
+  .heroSection .textSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroSection .textSection h2 {
+    font-size: 1.5rem !important;
+  }
+  .heroSection .textSection h3 {
+    font-size: 3rem !important;
+    width: 9rem;
+  }
+  .heroSection .textSection #display {
+    margin-top: 19rem !important;
+    position: absolute;
+  }
+  .heroSection .textSection .btn {
+    margin-top: 4rem !important;
   }
 }
 @media (max-width: 1117px) {
