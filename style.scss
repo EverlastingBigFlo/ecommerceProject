@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   scroll-behavior: smooth;
-  // overflow-y: hid;
 }
   // about section
   .scroll{
@@ -99,7 +98,7 @@
       }
 }
 
-
+// animation for my pop up button
 @keyframes scrollupAnimation {
   100% {
     transform: translateY(0px);
