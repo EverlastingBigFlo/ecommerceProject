@@ -30,7 +30,7 @@
                 justify-content: center;
                 align-items: center;
                 font-size: 4.5rem !important;
-                width: 50rem;
+                max-width: 50rem;
             }
             #display{
               margin-top: 7rem !important;
@@ -45,7 +45,7 @@
 }
 @media (max-width:800px) {
     .heroSection{
-        width: 20%;
+      max-width: 20%;
         .textSection{
             display: flex;
             justify-content: center;
@@ -65,7 +65,7 @@
             }
             h3{
                 font-size: 3rem !important;
-                width: 9rem;
+                max-width: 9rem;
             }
             #display{
                 font-size: 1rem !important;
@@ -85,7 +85,7 @@
             }
             h3{
                 font-size: 3rem !important;
-                width: 9rem;
+                max-width: 9rem;
             }
             #display{
               margin-top: 19rem !important;

@@ -5,7 +5,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-  width: 100%;
+  max-width: 100%;
 }
 
 // nav
@@ -16,7 +16,7 @@ header{
         .navCon{
             .navbar-brand{
                 img{
-                    width: 4rem;
+                    max-width: 4rem;
                 }
             }
             .collapse{
@@ -70,7 +70,7 @@ header{
                 }
                 .jewel::after{
                   content: "";
-                  width: 30%;
+                  max-width: 30%;
                   height: 2px;
                   background-color: black;
                   position: absolute; 
@@ -79,7 +79,7 @@ header{
                 }
               }
               .dropDown{
-                  width: 25rem;
+                  max-width: 25rem;
                   display: none;
                   position: absolute;
                   

@@ -24,7 +24,6 @@
   // carousel section
     .carouselWrapper{
       margin-top: 9rem !important;
-      // width: 50%;
       height: 50% !important;
       #carouselExampleAutoplaying{
         .carousel-inner{
@@ -53,7 +52,7 @@
   .heroSection{
     line-height: 3rem;
     height: 100%;
-    width: 100% !important;
+    max-width: 100% !important;
     padding: 9rem 0 9rem 0 !important;
       .container{
           .textSection{

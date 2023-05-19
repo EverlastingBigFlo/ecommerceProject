@@ -6,14 +6,14 @@
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
 }
 
 header .navbar {
   background-color: #fffdee !important;
 }
 header .navbar .navCon .navbar-brand img {
-  width: 4rem;
+  max-width: 4rem;
 }
 header .navbar .navCon .collapse form .form-control:focus::-moz-placeholder {
   transform: translateY(-1.1rem);
@@ -49,7 +49,7 @@ header .navbar .secondNav .secondnavWrapper:hover .jewel {
 }
 header .navbar .secondNav .secondnavWrapper:hover .jewel::after {
   content: "";
-  width: 30%;
+  max-width: 30%;
   height: 2px;
   background-color: black;
   position: absolute;
@@ -57,7 +57,7 @@ header .navbar .secondNav .secondnavWrapper:hover .jewel::after {
   left: 20px;
 }
 header .navbar .secondNav .secondnavWrapper .dropDown {
-  width: 25rem;
+  max-width: 25rem;
   display: none;
   position: absolute;
 }
