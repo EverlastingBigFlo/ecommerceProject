@@ -29,7 +29,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                font-size: 4.5rem !important;
+                font-size: 4rem !important;
                 max-width: 50rem;
             }
             #display{
@@ -45,7 +45,7 @@
 }
 @media (max-width:800px) {
     .heroSection{
-      max-width: 20%;
+        max-width: 20%;
         .textSection{
             display: flex;
             justify-content: center;
@@ -65,7 +65,6 @@
             }
             h3{
                 font-size: 3rem !important;
-                max-width: 9rem;
             }
             #display{
                 font-size: 1rem !important;
@@ -85,10 +84,58 @@
             }
             h3{
                 font-size: 3rem !important;
-                max-width: 9rem;
             }
             #display{
-              margin-top: 19rem !important;
+              margin-top: 9rem !important;
+              position: absolute;
+            }
+            .btn{
+              margin-top: 4rem !important;
+
+            }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .heroSection{
+        .textSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+            font-size: 1.5rem !important ;
+            }
+            h3{
+                font-size: 2.6rem !important;
+            }
+            #display{
+              margin-top: 9rem !important;
+              position: absolute;
+            }
+            .btn{
+              margin-top: 4rem !important;
+
+            }
+        }
+    }
+}
+
+@media (max-width:400px) {
+    .heroSection{
+        .textSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+            font-size: 1.5rem !important ;
+            }
+            h3{
+              line-height: 1.8rem !important;
+                font-size: 2rem !important;
+            }
+            #display{
+              margin-top: 4rem !important;
               position: absolute;
             }
             .btn{
