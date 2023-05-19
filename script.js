@@ -1,5 +1,9 @@
 
-    // to use autotyping
+
+
+
+
+// to use autotyping
 
     // declaring global variables
 let sentence=['Save more with coupons and up to 70% off!']
