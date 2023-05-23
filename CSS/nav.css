@@ -57,7 +57,7 @@ header .navbar .secondNav .secondnavWrapper:hover .jewel::after {
   left: 20px;
 }
 header .navbar .secondNav .secondnavWrapper .dropDown {
-  max-width: 25rem;
+  width: 25rem;
   display: none;
   position: absolute;
 }
