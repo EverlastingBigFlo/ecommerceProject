@@ -6,13 +6,17 @@
   scroll-behavior: smooth;
 }
 
+#jumpToAbout {
+  position: fixed;
+  z-index: 10;
+}
+
 .scroll {
   position: fixed;
   z-index: 10;
   right: 0;
   bottom: 0;
   animation: scrollupAnimation infinite 1s;
-  display: none;
   padding: 0.2rem 0.5rem;
   cursor: pointer;
   color: #d36420;

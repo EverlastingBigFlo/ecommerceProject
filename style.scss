@@ -8,7 +8,11 @@
 
 
 
+#jumpToAbout{
+  position: fixed;
+  z-index: 10;
 
+}
   // about section
   .scroll{
     position: fixed;
@@ -16,7 +20,7 @@
     right: 0;
     bottom: 0;
     animation: scrollupAnimation infinite 1s;
-    display: none ;
+    // display: none ;
     padding: .2rem .5rem;
     cursor: pointer;
     color: #d36420;
