@@ -19,7 +19,7 @@ async function fetchData(){
                         <img src=${Element.image} alt="" class="img-fluid">
                         <h6>id : ${Element.id}</h6>
                         <h1>price : ${Element.price}</h1>
-                        <p>title : ${Element.title}</p>
+                      <p>title : ${Element.title}</p>
                         <button class="btn btn-dark">View</button>
                  </div>
          </div>
