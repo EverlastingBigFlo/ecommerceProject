@@ -1,4 +1,13 @@
-.wrapper .row {
-  padding-top: 6.8rem !important;
-  padding-bottom: 6.8rem !important;
+.navbar .container-fluid a h1 {
+  color: #d36420 !important;
+}
+
+.wrapper .betterRo {
+  padding-bottom: 10.6rem !important;
+}
+.wrapper .betterRo .sidebar {
+  border: 1px solid #d36420 !important;
+}
+.wrapper .betterRo a {
+  background-color: black !important;
 }
