@@ -11,10 +11,221 @@
     <link rel="stylesheet" href="CSS/media.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" -->
+
 </head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h1 class="text-warning">ADMIN PANEL</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse justify-content-end" id="navbarMenu">
+                <ul class="navbar-nav d-md-none ">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted active" href="#">
+                            <i class="fas fa-home mr-2"></i>Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item bg-light">
+                        <a class="nav-link" href="#">
+                            <i class="mr-2 fas fa-list "></i> App
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">
+                            <i class="mr-2 fas fa-envelope-open"></i> MailBOX
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">
+                            <i class="mr-2 fas fa-desktop"></i> UI Elements
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="mr-2 fas fa-asterisk"></i> UI Elements
+                        </a>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav">
+                    <li class="nav-item mr-2">
+                        <a class="nav-link text-muted" href="#">
+                            <i class="fas fa-search "></i>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-bell "></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a class="nav-link" href="#">
+                            <img src="https://cdn1.iconfinder.com/data/icons/avatar-2-2/512/Manager-512.png" width="30" alt="" class=" img-fluid rounded-circle">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signOutModal">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 sidebar d-flex flex-column list-group list-group-flush viewport-max ">
+                    <a href="#" class="list-group-item list-group-item-action text-center">
+                        <img src="/images/admin image.JPG" alt="" class="img-fluid rounded-circle mr-2"> Anjorin Love</a>
+                    <a href="#" class="list-group-item list-group-item-action menu-items active">
+                        <i class="fas fa-columns mr-2 fa-lg"></i>Dashboard</a>
+                    <a href="#" class="list-group-item list-group-item-action menu-items">
+                        <i class="fab fa-android mr-2 fa-lg"></i>App</a>
+                    <a href="#" class="list-group-item list-group-item-action menu-items">
+                        <i class="fas fa-envelope mr-2 fa-lg"></i>Mailbox</a>
+                    <a href="#" class="list-group-item list-group-item-action menu-items">
+                        <i class="fas fa-users mr-2 fa-lg"></i>UI Elements</a>
+                    <a href="#" class="list-group-item list-group-item-action menu-items">
+                        <i class="fas fa-envelope mr-2 fa-lg"></i>Gmail</a>
+                    <div class="list-group-item">
+                        <h5 class="text-left">FORMS AND TABLES</h5>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <a href="#" class="list-group-item-action">
+                                <i class="fab fa-twitter mr-2"></i>Twitter</a>
+                            <span class="badge badge-danger badge-pill">10</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <a href="#" class="list-group-item-action">
+                                <i class="fab fa-facebook mr-2"></i>Facebook</a>
+                            <span class="badge badge-danger badge-pill">10</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <a href="#" class="list-group-item-action">
+                                <i class="fab fa-google mr-2"></i>Gmail</a>
+                            <span class="badge badge-warning badge-pill">5</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <a href="#" class="list-group-item-action">
+                                <i class="fab fa-linkedin-in mr-2"></i>Linkedin</a>
+                            <span class="badge badge-success badge-pill">3</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- MAIN CARDS-->
+                <div class="col-lg-10 py-5 bg-light my-3">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-info">Dashboard /
+                                <small class="text-muted">My Dashboard</small>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                                <canvas id="lineChart" width="400" height="400"></canvas>
+                        </div>
+                        <div class="col-sm-4">
+                                <canvas id="sampleChart" width="400" height="400"></canvas>
+                        </div>
+                        <div class="col-sm-4">
+                                <canvas id="pieChart" width="400" height="400"></canvas>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+<!-- 
+    <div class="modal fade" id="signOutModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Already want to leave?</h2>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">It is sad to see you go. Please press logout to leave.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" type="button" data-dismiss="modal">Logout</button>
+                    <div class="btn btn-primary" type="button">Stay</div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- <nav class="navbar navbar-dark bg-dark fixed-top py-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><h1>Admin Page</h1></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
 
 <div class="headline d-flex justify-content-center align-items-center py-5">
-  <h1>Admin Page</h1>
 </div>
   <div class="bg-black container shadow py-5">
     <form class="container card col-12 col-md-6 col-lg-6 bg-secondary adminForm">
@@ -46,9 +257,9 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 
-  </div>
+  </div> -->
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
-<script src="getProduct.js"></script>
+<!-- <script src="getProduct.js"></script> -->
 </html>
