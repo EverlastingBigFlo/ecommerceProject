@@ -11,3 +11,6 @@
 .wrapper .betterRo a {
   background-color: black !important;
 }
+.wrapper .betterRo .adminForm .header {
+  background-color: #d36420;
+}
