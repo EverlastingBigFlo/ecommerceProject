@@ -7,7 +7,7 @@
 
     // declaring global variables
 let sentence=['Save more with coupons and up to 70% off!']
-let sectionNew=document.getElementById('display');
+let sectionNew=document.getElementById('displayAutotype');
 let arrsentence=0;
 let arrWords=0;
 

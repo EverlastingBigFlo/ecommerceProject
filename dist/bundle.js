@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("throw new Error(\"Module parse failed: Unexpected token (26:18)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n| \\n| getDocs(efre)\\n> .then((snapshot)=>){\\n|   console.log(snapshot);\\n| }\");\n\n//# sourceURL=webpack://firebase/./src/index.js?");
+eval("// // Import the functions you need from the SDKs you need\n// import { initializeApp } from \"firebase/app\";\n// import {collection, getDocs, getFireStore, snapshotEqual} from \"firebase/firestore\"\n// // TODO: Add SDKs for Firebase products that you want to use\n// // https://firebase.google.com/docs/web/setup#available-libraries\n\n// // Your web app's Firebase configuration\n// const firebaseConfig = {\n//   apiKey: \"AIzaSyC-vvsMkOi8B5Wg4VgkJouaQuszIfEX-ks\",\n//   authDomain: \"first-learn-293b9.firebaseapp.com\",\n//   projectId: \"first-learn-293b9\",\n//   storageBucket: \"first-learn-293b9.appspot.com\",\n//   messagingSenderId: \"1000788914787\",\n//   appId: \"1:1000788914787:web:048b76c88472ff42dd7e56\"\n// };\n\n// // Initialize Firebase\n// const app = initializeApp(firebaseConfig);\n\n\n// const efe = getFireStore()\n\n// const efre = collection(efe, 'users')\n\n// getDocs(efre)\n// .then((snapshot)=>){\n//   console.log(snapshot);\n// }\n\n//# sourceURL=webpack://firebase/./src/index.js?");
 
 /***/ })
 
@@ -24,7 +24,7 @@ eval("throw new Error(\"Module parse failed: Unexpected token (26:18)\\nYou may 
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
 /******/ 	__webpack_modules__["./src/index.js"]();
 /******/ 	
