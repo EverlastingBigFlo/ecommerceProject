@@ -31,15 +31,21 @@
         }
       }
 
-  
-      .adminForm {
-        .header {
-          background-color: #d36420;
+      .righBar{
+        .dashboardSec{
+            img{
+                width: 50rem !important;
+            }
         }
-        button {
-          background-color: #d36420 !important;
+            .adminForm {
+                .header {
+                background-color: #d36420;
+                }
+                button {
+                background-color: #d36420 !important;
+                }
+            }
         }
-      }
     }
   }
   

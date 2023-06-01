@@ -20,9 +20,12 @@
 .wrapper .betterRo .sidebar div h5 {
   font-size: 0.9rem;
 }
-.wrapper .betterRo .adminForm .header {
+.wrapper .betterRo .righBar .dashboardSec img {
+  width: 50rem !important;
+}
+.wrapper .betterRo .righBar .adminForm .header {
   background-color: #d36420;
 }
-.wrapper .betterRo .adminForm button {
+.wrapper .betterRo .righBar .adminForm button {
   background-color: #d36420 !important;
 }
