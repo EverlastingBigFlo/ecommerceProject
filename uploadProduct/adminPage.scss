@@ -1,7 +1,7 @@
 
 
 .navbar{
-    .container-fluid{
+    .container{
             a{
                 h1{
                     color: #d36420 !important;
@@ -10,27 +10,36 @@
     }
 }
 
-.wrapper{
-    .betterRo{
-        padding-bottom: 10.6rem !important;
-        .sidebar{
-            height: 100% !important;
-            border: 1px solid #d36420 !important;
+.wrapper {
+    .betterRo {
+      padding-bottom: 11rem !important;
+      .sidebar {
+        height: 100%;
+        border: 1px dashed #d36420;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        border-radius: 5rem;
+        padding: 2rem;
+        hr {
+          border: 1px dashed #d36420;
+          color: #d36420;
         }
-        a{
-            background-color: black !important;
+        div {
+          h5 {
+            font-size: .9rem;
+          }
         }
-        // &.focused {
-        //     background-color: blue !important;
-        //   }
+      }
 
-       .adminForm{
-        .header{
-            background-color: #d36420;
+  
+      .adminForm {
+        .header {
+          background-color: #d36420;
         }
-        button{
-            background-color: #d36420 !important;
+        button {
+          background-color: #d36420 !important;
         }
-       }
+      }
     }
-}
+  }
+  

@@ -1,16 +1,24 @@
-.navbar .container-fluid a h1 {
+.navbar .container a h1 {
   color: #d36420 !important;
 }
 
 .wrapper .betterRo {
-  padding-bottom: 10.6rem !important;
+  padding-bottom: 11rem !important;
 }
 .wrapper .betterRo .sidebar {
-  height: 100% !important;
-  border: 1px solid #d36420 !important;
+  height: 100%;
+  border: 1px dashed #d36420;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-radius: 5rem;
+  padding: 2rem;
 }
-.wrapper .betterRo a {
-  background-color: black !important;
+.wrapper .betterRo .sidebar hr {
+  border: 1px dashed #d36420;
+  color: #d36420;
+}
+.wrapper .betterRo .sidebar div h5 {
+  font-size: 0.9rem;
 }
 .wrapper .betterRo .adminForm .header {
   background-color: #d36420;
