@@ -120,15 +120,17 @@
                   <input type="text" class="form-control rounded-5 py-3 bg-light border-dark" placeholder="Search your order here!!!" aria-label="Search Anything" aria-describedby="button-addon2">
                 </div>
               </form>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-2 d-flex justify-content-between">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-2 d-flex justify-content-around align-items-center">
               <li class="nav-item">
-            <button class="btn btn-danger rounded-4" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sign in</button>
-                <!-- <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-danger rounded-4">Sign in</button></a> -->
+                  <div  class="dropCar fs-4">
+                        <div id="userName"><i class="bi bi-person-circle"></i>
+                          <button class="btn btn-danger rounded-4 dropHover" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sign in</button>
+                        </div>
+                 </div>
               <li class="dropCar nav-item">
                 <a class="nav-link fs-4" href="#"><i class="bi bi-heart"></i></a>
                 <h6 class="dropHover bg-dark p-2 text-white rounded-5">Favorites</h6>
               </li>
-              
               <li class="dropCar nav-item">
                 <a class="nav-link fs-4" href="#"><i class="bi bi-cart4"></i></a>
                 <h6 class="dropHover bg-dark p-2 text-white rounded-5">Cart</h6>
@@ -137,6 +139,7 @@
           </div>
         </div>
         
+        <!-- second nav sec -->
         <section class="d-flex ">
             <nav class="secondNav d-none d-md-block d-lg-block">
               <div class="secondnavWrapper d-flex">

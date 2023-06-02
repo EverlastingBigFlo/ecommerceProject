@@ -44,10 +44,6 @@ header{
             .collapse{
               form{
                 .form-control{
-                  // &::placeholder{
-                  //   // color: #fffdee;
-                    
-                  // }
                   &:focus::placeholder{
                     transform: translateY(-1.1rem);
                     transition: 2s ease-in-out;
@@ -56,7 +52,8 @@ header{
               }
                 .navbar-nav{
                   .btn-danger{
-                    background-color: #d36420 !important;
+                    background-color: #d36420;
+                    width: 5rem;
                   }
                     .dropCar {
                         position: relative;
@@ -84,7 +81,6 @@ header{
               .jewel{
                 color: #d36420 !important;
                 text-decoration: none;
-                // transition: 5s ease; 
               }
               &:hover{
                 .jewel{

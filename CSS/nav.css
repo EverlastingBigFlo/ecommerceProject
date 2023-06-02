@@ -36,7 +36,8 @@ header .navbar .navCon .collapse form .form-control:focus::placeholder {
   transition: 2s ease-in-out;
 }
 header .navbar .navCon .collapse .navbar-nav .btn-danger {
-  background-color: #d36420 !important;
+  background-color: #d36420;
+  width: 5rem;
 }
 header .navbar .navCon .collapse .navbar-nav .dropCar {
   position: relative;
