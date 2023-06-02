@@ -9,6 +9,17 @@ body {
   max-width: 100%;
 }
 
+header .modal .modal-dialog .modal-content .btn {
+  background-color: #d36420;
+}
+header .modal .modal-dialog .modal-content .modal-body form .mb-3 .form-check-label {
+  font-size: 0.8rem;
+}
+header .modal .modal-dialog .modal-content .modal-body form .mb-3 a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #d36420;
+}
 header .navbar {
   background-color: #fffdee !important;
 }

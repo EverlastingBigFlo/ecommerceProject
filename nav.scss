@@ -9,6 +9,29 @@ body{
 }
 // nav
 header{
+  .modal{
+    .modal-dialog{
+      .modal-content{
+        .btn{
+          background-color: #d36420;
+        }
+        .modal-body{
+          form{
+          .mb-3{
+            .form-check-label{
+              font-size: .8rem;
+            }
+            a{
+              text-decoration: none;
+              font-size: .8rem;
+              color: #d36420;
+            }
+          }
+          }
+        }
+      }
+    }
+  }
     .navbar{
     background-color: #fffdee !important;
 
