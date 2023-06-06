@@ -70,16 +70,32 @@
               </div>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
             <div class="modal-body">
               <form action="" id="signUp">
                 <div class="mb-3">
-                  <label for="exampleInputFirstName" class="form-label">First Name</label>
-                  <input type="firstName" name="firstName" class="form-control" id="exampleInputFirstName" aria-describedby="emailHelp" required>
+                  <label for="exampleInputFirstName" class="form-label">Name</label>
+                  <input type="Name" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" required>
                 </div>
-                <div class="mb-3">
+
+                <!-- <div class="mb-3">
                   <label for="exampleInputLastName" class="form-label">Last Name</label>
                   <input type="lastName" name="lastName" class="form-control" id="exampleInputLastName" aria-describedby="emailHelp" required>
-                </div>
+                </div> -->
+
+                <div class="mb-3">
+                  <label for="username">Username</label>
+                  <input type="text" name="username" class="form-control" id="exampleInputLastName" aria-describedby="emailHelp" required>
+              </div>
+
+                <div class="mb-3">
+                  <label for="gender">Gender</label>
+                  <select name="gender">
+                      <option value="male">M</option>
+                      <option value="female">F</option>
+                  </select>
+              </div>
+
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
                   <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
