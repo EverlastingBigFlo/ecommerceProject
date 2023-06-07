@@ -9,6 +9,7 @@
 .productsSection {
   margin-top: 10rem;
 }
-.productsSection .card .productBox img {
-  height: 10rem;
+.productsSection #productDisplay {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
 }
