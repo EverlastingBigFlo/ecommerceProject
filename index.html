@@ -41,14 +41,17 @@
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" name="email" class="form-control" id="exampleInputPassword1" required>
+                  <input type="password" name="password" class="form-control" id="exampleInputPassword1" required>
                   <a href="#" class="text-decoration-none ">Forgot your password?</a>
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                 </div>
+                <div id="errorLogin"></div>
                 <button type="submit" class="btn">Log In</button>
+                <div class="loader"></div>
+
               </form>
             </div>
             <div class="modal-footer">New User?
@@ -79,12 +82,6 @@
                   <label for="exampleInputFirstName" class="form-label">Name</label>
                   <input type="Name" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" required>
                 </div>
-
-                <!-- <div class="mb-3">
-                  <label for="exampleInputLastName" class="form-label">Last Name</label>
-                  <input type="lastName" name="lastName" class="form-control" id="exampleInputLastName" aria-describedby="emailHelp" required>
-                </div> -->
-
                 <div class="mb-3">
                   <label for="username">Username</label>
                   <input type="text" name="username" class="form-control" id="exampleInputLastName" aria-describedby="emailHelp" required>
@@ -125,6 +122,7 @@
       </div>
     </li>
 
+
     <!-- nav bar section -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center align-items-center card rounded-0 fixed-top">
         <div class="navCon container-fluid">
@@ -143,14 +141,16 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-2 d-flex justify-content-around align-items-center">
               <li class="nav-item">
                   <div  class="dropCar fs-4">
-                        <div id="userName"><i class="bi bi-person-circle"></i>
-                          <button class="btn btn-danger rounded-4 dropHover" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sign in</button>
+                        <div><i class="bi bi-person-circle"></i>
+                          <p id="userName" class="dropHover"></p>
                         </div>
                  </div>
               <li class="dropCar nav-item">
                 <a class="nav-link fs-4" href="#"><i class="bi bi-heart"></i></a>
                 <h6 class="dropHover bg-dark p-2 text-white rounded-5">Favorites</h6>
               </li>
+              <button class="btn btn-danger hideSignUp rounded-4" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sign in</button>
+
               <li class="dropCar nav-item">
                 <a class="nav-link fs-4" href="#"><i class="bi bi-cart4"></i></a>
                 <h6 class="dropHover bg-dark p-2 text-white rounded-5">Cart</h6>
