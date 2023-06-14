@@ -11,5 +11,5 @@
 }
 .productsSection #productDisplay {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 450px);
 }

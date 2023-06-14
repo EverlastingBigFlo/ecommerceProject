@@ -15,113 +15,221 @@
 </head>
 <body>
 <!-- nav seciton -->
-    <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center align-items-center card rounded-0 fixed-top">
-        <div class="navCon container-fluid">
-          <a class="navbar-brand " href="#">
-            <img src="images/ecommerce-unique-shopping-bag-logo-for-business-and-company-vector.webp" alt="">
-        </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-            <form class="d-flex col-lg-10 mt-3" role="search">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control rounded-5 py-3 bg-light border-dark" placeholder="Search your order here!!!" aria-label="Search Anything" aria-describedby="button-addon2">
-                </div>
-              </form>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-2 d-flex justify-content-between">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-danger rounded-4">Sign in</button></a>
-              </li>
-              <li class="dropCar nav-item">
-                <a class="nav-link fs-4" href="#"><i class="bi bi-heart"></i></a>
-                <h6 class="dropHover bg-dark p-2 text-danger rounded-5">Favorites</h6>
-              </li>
-              
-              <li class="dropCar nav-item">
-                <a class="nav-link fs-4" href="#"><i class="bi bi-cart4"></i></a>
-                <h6 class="dropHover bg-dark p-2 text-danger rounded-5">Cart</h6>
-              </li>
-            </ul>
-          </div>
+
+<header>
+
+  <!--login section -->
+
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign In</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        
-        <section class="d-flex ">
-            <nav class="secondNav d-none d-md-block d-lg-block">
-              <div class="secondnavWrapper d-flex">
-                    <div class="dropHeader px-3">
-                        <a href="#" class="text-dark jewel my-1 "><p>Jewelry & Accessories</p></a>
-                        <ul class="dropDown list-unstyled bg-white shadow card">
-                        <li><a href="#" id="listing">All Jewelry & Accessories <i class="bi bi-arrow-right"></i></a></li>
-                        <li><a href="#" id="listing">Accessories</a></li>
-                        <li><a href="#" id="listing">Bags & Purses</a></li>
-                        <li><a href="#" id="listing">Necklaces</a></li>
-                        <li><a href="#" id="listing">Rings</a></li>
-                        <li><a href="#" id="listing">Earrings</a></li>
-                        <li><a href="#" id="listing">Bracelets</a></li>
-                        <li><a href="#" id="listing">Body Jewelry</a></li>
-                        </ul>
+        <div class="modal-body">
+          <form action="" id="login">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email Address or Member ID</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" name="password" class="form-control" id="exampleInputPassword1" required>
+              <a href="#" class="text-decoration-none ">Forgot your password?</a>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            <div id="errorLogin"></div>
+            <button type="submit" class="btn">Log In</button>
+            <div class="loader"></div>
+
+          </form>
+        </div>
+        <div class="modal-footer">New User?
+          <button class="btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Join Free</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- sign up -->
+
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <h1 class="modal-title fs-5 py-2" id="exampleModalToggleLabel2">Create your account</h1>
+            <h6>Registration is easy.</h6>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+
+          <form action="" id="signUp">
+            <div class="mb-3">
+              <label for="exampleInputFirstName" class="form-label">Name</label>
+              <input type="Name" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" required>
+            </div>
+            <div class="mb-3">
+              <label for="username">Username</label>
+              <input type="text" name="username" class="form-control" id="exampleInputLastName" aria-describedby="emailHelp" required>
+          </div>
+
+            <div class="mb-3">
+              <label for="gender">Gender</label>
+              <select name="gender">
+                  <option value="male">M</option>
+                  <option value="female">F</option>
+              </select>
+          </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" name="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+              <label class="form-check-label" for="exampleCheck1">I agree to the <a href="#">User Agreement</a> and the <a href="#">Privacy  Policy</a></label>
+            </div>
+            <div id="errorLogin"></div>
+            <button type="submit" class="btn"><p class="text-decoration-none text-black" id="signUpButton">Sign Up</p></button>
+            <!-- <button id="signUpButton">submit</button> -->
+            <div class="loader"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to Log In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- nav bar section -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center align-items-center card rounded-0 fixed-top">
+    <div class="navCon container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="images/ecommerce-unique-shopping-bag-logo-for-business-and-company-vector.webp" alt="">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+        <form class="d-flex col-lg-10 mt-3" role="search">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control rounded-5 py-3 bg-light border-dark" placeholder="Search your order here!!!" aria-label="Search Anything" aria-describedby="button-addon2">
+            </div>
+          </form>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-2 d-flex justify-content-around align-items-center">
+          <li class="nav-item">
+              <div  class="dropCar fs-4">
+                    <div><i class="bi bi-person-circle"></i>
+                      <p id="userName" class="dropHover"></p>
                     </div>
-                </div>
-              </nav>
-              <nav class="secondNav d-none d-md-block d-lg-block">
-                <div class="secondnavWrapper d-flex">
-                    <div class="dropHeader px-3">
-                    <a href="#" class="text-dark jewel my-1 "><p>|    Clothing & Shoes</p></a>
-                      <ul class="dropDown list-unstyled bg-white shadow card">
-                            <li><a href="#" id="listing">All Clothing & Shoes <i class="bi bi-arrow-right"></i></a></li>
-                            <li><a href="#" id="listing">Women's</a></li>
-                            <li><a href="#" id="listing">Men's</a></li>
-                            <li><a href="#" id="listing">Unisex</a></li>
-                            <li><a href="#" id="listing">Kids' & Baby</a></li>
-                            <li><a href="#" id="listing">Bags & Purses</a></li>
-                      </ul>
-                      </div>
-                </div>
-              </nav>
-              <nav class="secondNav d-none d-md-block d-lg-block">
-                <div class="secondnavWrapper d-flex">
-                  <div class="dropHeader px-3">
-                    <a href="#" class="text-dark jewel my-1 "><p>|    Home & Living</p></a>
+             </div>
+          <li class="dropCar nav-item">
+            <a class="nav-link fs-4" href="#"><i class="bi bi-heart"></i></a>
+            <h6 class="dropHover bg-dark p-2 text-white rounded-5">Favorites</h6>
+          </li>
+          <button class="btn btn-danger hideSignUp rounded-4" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Sign in</button>
+
+          <li class="dropCar nav-item">
+            <a class="nav-link fs-4" href="#"><i class="bi bi-cart4"></i></a>
+            <h6 class="dropHover bg-dark p-2 text-white rounded-5">Cart</h6>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- second nav sec -->
+    <section class="d-flex ">
+        <nav class="secondNav d-none d-md-block d-lg-block">
+          <div class="secondnavWrapper d-flex">
+                <div class="dropHeader px-3">
+                    <a href="#" class="text-dark jewel my-1 "><p>Jewelry & Accessories</p></a>
                     <ul class="dropDown list-unstyled bg-white shadow card">
-                    <li><a href="#" id="listing">All Home & Living <i class="bi bi-arrow-right"></i></a></li>
-                    <li><a href="#" id="listing">Home</a></li>
-                    <li><a href="#" id="listing">Bath & Beauty</a></li>
-                    <li><a href="#" id="listing">Pet Supplies</a></li>
+                    <li><a href="#" id="listing">All Jewelry & Accessories <i class="bi bi-arrow-right"></i></a></li>
+                    <li><a href="#" id="listing">Accessories</a></li>
+                    <li><a href="#" id="listing">Bags & Purses</a></li>
+                    <li><a href="#" id="listing">Necklaces</a></li>
+                    <li><a href="#" id="listing">Rings</a></li>
+                    <li><a href="#" id="listing">Earrings</a></li>
+                    <li><a href="#" id="listing">Bracelets</a></li>
+                    <li><a href="#" id="listing">Body Jewelry</a></li>
                     </ul>
                 </div>
-                </div>
-              </nav>
-              <nav class="secondNav d-none d-md-block d-lg-block">
-                <div class="secondnavWrapper d-flex">
-                  <div class="dropHeader px-3">
-                    <a href="#" class="text-dark jewel my-1 "><p>|    Toys & Entertainment</p></a>
-                    <ul class="dropDown list-unstyled bg-white shadow card">
-                    <li><a href="#" id="listing">Toys & Games<i class="bi bi-arrow-right"></i></a></li>
-                    <li><a href="#" id="listing">Electronics & Accessories</a></li>
-                    <li><a href="#" id="listing">Books</a></li>
-                    <li><a href="#" id="listing">Movies & Music</a></li>
-                    </ul>
-                </div>
-                </div>
-              </nav>
-              <nav class="secondNav d-none d-md-block d-lg-block">
-                <div class="secondnavWrapper d-flex">
-                  <div class="dropHeader">
-                    <a href="#" class="text-dark jewel my-1 "><p>|    Art & Collectibles</p></a>
-                    <ul class="dropDown list-unstyled bg-white shadow card">
-                    <li><a href="#" id="listing">Photography<i class="bi bi-arrow-right"></i></a></li>
-                    <li><a href="#" id="listing">Painting</a></li>
-                    <li><a href="#" id="listing">Sculpture</a></li>
-                    <li><a href="#" id="listing">Drawing & Illustration</a></li>
-                    </ul>
-                </div>
-                </div>
-              </nav>
-        </section>
-      </nav>
-    </header>
+            </div>
+          </nav>
+          <nav class="secondNav d-none d-md-block d-lg-block">
+            <div class="secondnavWrapper d-flex">
+                <div class="dropHeader px-3">
+                <a href="#" class="text-dark jewel my-1 "><p>|    Clothing & Shoes</p></a>
+                  <ul class="dropDown list-unstyled bg-white shadow card">
+                        <li><a href="#" id="listing">All Clothing & Shoes <i class="bi bi-arrow-right"></i></a></li>
+                        <li><a href="#" id="listing">Women's</a></li>
+                        <li><a href="#" id="listing">Men's</a></li>
+                        <li><a href="#" id="listing">Unisex</a></li>
+                        <li><a href="#" id="listing">Kids' & Baby</a></li>
+                        <li><a href="#" id="listing">Bags & Purses</a></li>
+                  </ul>
+                  </div>
+            </div>
+          </nav>
+          <nav class="secondNav d-none d-md-block d-lg-block">
+            <div class="secondnavWrapper d-flex">
+              <div class="dropHeader px-3">
+                <a href="#" class="text-dark jewel my-1 "><p>|    Home & Living</p></a>
+                <ul class="dropDown list-unstyled bg-white shadow card">
+                <li><a href="#" id="listing">All Home & Living <i class="bi bi-arrow-right"></i></a></li>
+                <li><a href="#" id="listing">Home</a></li>
+                <li><a href="#" id="listing">Bath & Beauty</a></li>
+                <li><a href="#" id="listing">Pet Supplies</a></li>
+                </ul>
+            </div>
+            </div>
+          </nav>
+          <nav class="secondNav d-none d-md-block d-lg-block">
+            <div class="secondnavWrapper d-flex">
+              <div class="dropHeader px-3">
+                <a href="#" class="text-dark jewel my-1 "><p>|    Toys & Entertainment</p></a>
+                <ul class="dropDown list-unstyled bg-white shadow card">
+                <li><a href="#" id="listing">Toys & Games<i class="bi bi-arrow-right"></i></a></li>
+                <li><a href="#" id="listing">Electronics & Accessories</a></li>
+                <li><a href="#" id="listing">Books</a></li>
+                <li><a href="#" id="listing">Movies & Music</a></li>
+                </ul>
+            </div>
+            </div>
+          </nav>
+          <nav class="secondNav d-none d-md-block d-lg-block">
+            <div class="secondnavWrapper d-flex">
+              <div class="dropHeader">
+                <a href="#" class="text-dark jewel my-1 "><p>|    Art & Collectibles</p></a>
+                <ul class="dropDown list-unstyled bg-white shadow card">
+                <li><a href="#" id="listing">Photography<i class="bi bi-arrow-right"></i></a></li>
+                <li><a href="#" id="listing">Painting</a></li>
+                <li><a href="#" id="listing">Sculpture</a></li>
+                <li><a href="#" id="listing">Drawing & Illustration</a></li>
+                </ul>
+            </div>
+            </div>
+          </nav>
+    </section>
+  </nav>
+</header>
+
 <!-- ProductSection -->
         <section class="productsSection container py-5">
             <div id="productDisplay" class="row"></div>
