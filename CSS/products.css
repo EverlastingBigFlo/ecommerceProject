@@ -6,10 +6,26 @@
   scroll-behavior: smooth;
 }
 
+#loading_indicator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 10px solid grey;
+  border-radius: 50%;
+  border-top: 10px solid #d36420;
+  width: 100px;
+  height: 100px;
+  animation: spinIndicator 1s linear infinite;
+}
+@keyframes spinIndicator {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .productsSection {
   margin-top: 10rem;
-}
-.productsSection #productDisplay {
-  display: grid;
-  grid-template-columns: repeat(3, 450px);
 }
