@@ -148,6 +148,28 @@
 
 
 // carousel section media
+@media (min-width : 1117px) {
+    .carouselWrapper{
+        #carouselExampleAutoplaying{
+          .carousel-inner{
+            .carousel-item{
+              .position-absolute{
+                margin-left: 75rem !important;
+              }
+              .interoi{
+                position: absolute;
+                margin-left: 83rem !important;
+              }
+              .Toys{
+                position: absolute;
+                margin-left: 83rem !important;
+              }
+            }
+          }
+        }
+      }
+}
+
 @media (max-width : 1117px) {
     .carouselWrapper{
         #carouselExampleAutoplaying{
